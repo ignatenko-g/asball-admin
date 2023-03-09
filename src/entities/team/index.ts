@@ -1,0 +1,10 @@
+export { teamReducer } from './model/slice/teamSlice';
+export { teamActions } from './model/slice/teamSlice';
+export { type TeamSchema, type Team } from './model/types/types';
+export { getTeams } from './model/selectors/getTeams';
+export { getTeamStatus } from './model/selectors/getTeamStatus';
+export { fetchTeams } from './model/services/fetchTeams';
+export { deleteTeam } from './model/services/deleteTeam';
+export { createTeam } from './model/services/createTeam';
+export { updateTeam } from './model/services/updateTeam';
+export { updateMatch } from 'entities/match/model/services/updateMatch';
